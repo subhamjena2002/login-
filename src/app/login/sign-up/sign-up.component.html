@@ -1,0 +1,35 @@
+<div class="signup">
+    <h2>Sign Up Page</h2>
+    <form action="" [formGroup]="registerForm" (ngSubmit)="Registration()">
+    <label for="username">username</label>
+    <input type="text" formControlName="username">
+    <br>
+    <label for="name">Full Name</label>
+    <input type="text" formControlName="name">
+    <br>
+    <label for="new_Password">New password</label>
+    <input type="password" name="pass1" formControlName="pass1">
+    <br>
+    <label for="">Confirm password</label>
+    <input type="password" name="pass2" formControlName="pass2">
+    <br>
+    <label for="phone_number">Phone Number</label>
+    <input type="number" formControlName="phone_number">
+    <br>
+    <label for="phone_number">gender</label>
+    <input type="radio" value="male" formControlName="radio1">
+   
+    <input type="radio" value="female" formControlName="radio2">
+    <br>
+
+    <select name="select" id="select" formControlName="select" >
+        <option value="yes">Yes</option>
+        <option value="no">no</option>
+    </select>
+    <br>
+    <button type="submit">Sign Up</button>
+    <button routerLink="/userlist">Show user</button>
+    <button routerLink="/signin">Sign In</button>
+    
+</form>
+</div>

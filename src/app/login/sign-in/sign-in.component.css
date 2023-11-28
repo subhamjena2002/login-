@@ -1,0 +1,9 @@
+.login_card{
+    width: 40%;
+    background-color: beige;
+    margin:15%;
+    padding: 5%;
+}
+.sign_inputs{
+    margin-bottom: 10px;
+}
